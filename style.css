@@ -1,0 +1,105 @@
+body{
+  background-color: darkgreen;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+}
+
+.todo,.edit{
+  background-color: chartreuse;
+  width: 250px;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  color: green;
+}
+
+input{
+  width: 70%;
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid green;
+  outline: none;
+  border-radius: 20px;
+}
+
+.createBtn,.saveBtn{
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: chartreuse;
+  background-color: green;
+}
+
+
+.list{
+  background-color: chartreuse;
+  width: 450px;
+  height: 300px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+.list::-webkit-scrollbar{
+  background-color: chartreuse;
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-thumb{
+  background-color: green;
+}
+
+.block{
+  display: flex;
+  background-color: green;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.cardImg{
+  height: 60px;
+  border-radius: 10px;
+}
+
+.texts{
+  line-height: 10px;
+  letter-spacing: 1px;
+}
+
+.pName,.pLastName{
+  color: chartreuse;
+  font-family: 'sans-serif';
+  font-size: 20px;
+}
+
+.btns{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.delBtn,.editBtn{
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: chartreuse;
+  color: green;
+}
